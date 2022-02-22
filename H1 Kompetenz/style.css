@@ -36,10 +36,6 @@ li img {
   width: 20%;
 }
 
-#login {
-  margin: 5px;
-}
-
 #logo {
   float: right;
 }
@@ -51,6 +47,7 @@ img {
 
 h1 {
   color: aliceblue;
+  text-align: center;
 }
 
 h3 {
@@ -61,12 +58,54 @@ p {
   color: aliceblue;
 }
 
-input {
-  background-color: #414141;
-  color: aliceblues;
+#login {
+  background-color: #414140;
+  color: aliceblue;
+  border-radius: 24px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 15%;
 }
 
-button {
-  background-color: #414141;
-  color: aqua;
+#login:hover {
+  background-color: aliceblue;
+  color: #111;
+  border-radius: 24px;
 }
+
+/*.box {
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: #1B1B1B;
+}
+
+.box h1 {
+color: white;
+text-transform: uppercase;
+font-weight: 500;
+}
+
+.box input[type= "text"]{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  padding: 14px 10px;
+  width: 200px;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.box input[type = "text"]:focus{
+  width: 288px;
+}*/
